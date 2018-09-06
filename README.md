@@ -29,11 +29,13 @@ Let's consider two definitions from a couple of the leading networks:
 
 **Cosmos**:
 > "Validators are responsible for committing new blocks and ensuring that consensus is reached."
-Sources: [1](https://cosmos.network/)[2](https://cosmos.network/docs/validators/overview.html#introduction)
+
+Sources: [1](https://cosmos.network/), [2](https://cosmos.network/docs/validators/overview.html#introduction)
 
 **Polkadot**:
 > "Validators secure the relay chain by staking DOTs, validating proofs from collators and participating in consensus with other validators."
-Sources: [1](https://polkadot.network)[2](https://github.com/paritytech/polkadot/wiki/Polkadot-Roles-&-Actors)
+
+Sources: [1](https://polkadot.network), [2](https://github.com/paritytech/polkadot/wiki/Polkadot-Roles-&-Actors)
 
 Despite a difference in details, there is a symmetry in the roles that validators play in both the Cosmos and Polkadot networks. From the above quotations, we can understand that protocol level security rests upon validators signing a message to indicate that a particular block is correct. Once enough validators agree upon a block it is said to be final and can be committed to the relevant chain.
 
