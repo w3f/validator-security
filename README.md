@@ -19,6 +19,7 @@ User managed:
 Specified by the protocol:
 * Consensus
 * Economic
+* Governance
 
 Each of the above will be explored in their own document within this repo.
 
