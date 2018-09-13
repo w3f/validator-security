@@ -6,10 +6,10 @@ This repo is intended to be a collaborative effort for creating good practice gu
 The overview idea is to provide generic security recommendations for validators on any blockchain network, but also to contain specific details on the main chains of interest to the community (e.g. Ethereum, Cosmos, Polkadot).
 
 # Repo Structure
-This repo is structured around the important domains of managing validator security. Most of the interest shall be upon the aspects of security that node operators ("users") can control. It is also worth noting that there are some aspects of validator security that are specified by the protocol of the chosen network, while there may not be much that a user can do to change those parameters they will inform design choices.
+This repo is structured around the important domains of managing validator security. Most of the content shall be upon the aspects of security that node operators ("users") can control. It is also worth noting that there are some aspects of validator security that are specified by the protocol of the chosen network, while there may not be much that a user can do to change those parameters they will inform design choices.
 
 User managed:
-* Physical
+* [Physical](https://github.com/w3f/validator-security/blob/master/physical.md)
 * Operational
 * Network (local)
 * Device
@@ -53,7 +53,7 @@ While worrying about the confidentiality of the signing key is the top priority,
 Validators are economically incentivised to behave honestly, but they are also punished for being faulty or malicious ("Byzantine"). In the former they are rewarded with tokens and in the latter their stakes are 'slashed'.
 
 ## Availability Guarantees
-In addition to ensuring that signing key is well protected, the validator node must guarantee their availability to sign new blocks. A loss in service can result in their stake being slashed.
+In addition to ensuring that the signing key is well protected, the validator node must guarantee their availability to sign new blocks. A loss in service can result in their stake being slashed.
 
 ## Nominated Proof-of-Stake
 In nominated (or delegated) Proof-of-Stake it isn't necessary to have tokens 'attached' to the signing key that resides upon the validator node. An offline key could nominate their stake to a 'hot' key that resides on the node. This may make the task of managing security far easier.
