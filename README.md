@@ -10,7 +10,7 @@ This repo is structured around the important domains of managing validator secur
 
 User managed:
 * [Physical](https://github.com/w3f/validator-security/blob/master/physical.md)
-* Operational
+* [Operational](https://github.com/w3f/validator-security/blob/master/operational.md)
 * Network (local)
 * Device
 * Software
