@@ -26,7 +26,7 @@ Running a server at home will be sufficient for running a node on a test network
 [Further details to be added]
 
 # Physical Security Checklist
-This is a non-exhaustic checklist of security considerations. These points should be considered when making a choice of server location and determining if the location will offer sufficient security. Given that phsysical security is outsourced when you colocate or use a VPS, the amount of depth provide here will only be at a surface level.
+This is a non-exhaustive checklist of security considerations. These points should be considered when making a choice of server location and determining if the location will offer sufficient security. Given that phsysical security is outsourced when you colocate or use a VPS, the amount of depth provide here will only be at a surface level.
 
 * 24/7 physical security guards.
 * CCTV of the facility (internal and external).
